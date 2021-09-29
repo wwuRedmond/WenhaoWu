@@ -1,0 +1,32 @@
+/* * {
+    margin: 0;
+    background: #f2f2f2;
+} */
+
+canvas {
+  display:block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #0f4c81;
+  margin:20px auto;
+  border:1px dashed #bbb;
+}
+
+/* a {
+  width:800px;
+  display:block;
+  margin:0 auto;
+  position:relative;
+  top:-380px;
+  left:4px;
+  font-family:Helvetica, sans-serif;
+  font-size:18px;
+  text-decoration:none;
+  color: #aaa;
+}
+
+a:hover {
+  color: #888;
+} */

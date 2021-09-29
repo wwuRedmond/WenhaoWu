@@ -1,0 +1,72 @@
+  .circleHtml {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left:10%;
+    background: #adadad;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+  }
+
+  .circleCss {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left:10%;
+    background: #adadad;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+  }
+
+  .circleJava {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left:10%;
+    background: #adadad;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+  }
+
+  .circleFullStack {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left:10%;
+    background: #adadad;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+  }
+
+  .circleNodeJs {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left:10%;
+    background: #adadad;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+  }
+
+  div.container4 {
+    height:100px;
+    position: relative }
+  div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    .projectContainer {
+      display: block;
+      margin-left: 100px;
+      margin-top: 100px;
+    }

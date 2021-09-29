@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Engineering Portfolio</title>    
+<style>
+    body {
+        background-color: lightsteelblue;
+    }
+    .mySlides {display:none;}
+    #btn-l, #btn-r {
+      opacity: .5;
+    }
+    </style>
+</head>
+<body>
+
+        <h2 class="w3-center">Engineering Portfolio</h2>
+
+        <div class="w3-content w3-display-container">
+          <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide1.PNG" style="width:80%; height: 65%;">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide2.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide3.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide4.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide5.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide6.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide7.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide8.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide9.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide10.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide11.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide12.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide13.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide14.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide15.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide16.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide17.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide18.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide19.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide20.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide21.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide22.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide23.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide24.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide25.PNG" style="width:80%">
+           <img class="mySlides" style="margin-left: 10px;" src="./assets/eng_portfolio/eng_portfolio/Slide26.PNG" style="width:80%">
+        
+          <button class="w3-button w3-black w3-display-left" id="btn-l" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" id="btn-r" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+    
+</body>
+</html>

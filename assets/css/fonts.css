@@ -1,0 +1,22 @@
+#titleFont{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    color:#034F84;
+    margin: 0 20%;
+}
+
+.form_font{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:#034F84;
+}
+
+.infoFooter{
+    font-family: 'Shadows Into Light', cursive;    
+}
+
+.skillFont{
+    font-family: 'Kalam', cursive;
+    font-size:20px;
+}

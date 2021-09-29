@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #title_format {
+    margin: 20px auto;
+    text-align: center;
+    color: #0f4c81;
+  }
+
+.project_img {
+    float: left;
+    height: 150px;
+    width:  250px;
+    margin: 2.5%;
+  }
+
+  .newprojimg {
+    height: 150px;
+    width:  250px;
+  }
+
+  #imgSearchFlip {
+      float: left;
+      margin: 1%;
+  }
+
+  #imgSearchFlip:last-child {
+    margin-bottom: 10%
+  }
+
+  #projects {
+    justify-content: space-evenly;
+    margin-left: 6.5%;
+}
+
+  /* img {
+    width: 200px;
+    height: 200px;      
+    margin: 40px 40px;
+  }
+   */
+  .flip-card {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+  .repo-card {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back, 
+.repo-card-front {
+    box-shadow: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+    background-color: #0f4c81;
+    color: black;
+    padding-top: 35%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.repo-card-front {
+    background-color: #0f4c81;
+    color: black;
+    padding-top: 35%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background-color: rgba(0, 101, 148, 1);
+    color: rgb(65, 65, 65);
+    transform: rotateY(180deg);
+}

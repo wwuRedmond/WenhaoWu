@@ -1,0 +1,9 @@
+/* LIST #2 */
+.skillContainer {
+margin:100px 100px;
+}
+#skillList { width:320px; }
+#skillList ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#skillList ol li { font-size:30px;}
+#skillList ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:16px; color:#eee; border-left: 1px solid white; }
+#skillList ol li p em { display:block; }

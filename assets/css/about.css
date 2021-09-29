@@ -1,0 +1,51 @@
+/* body {
+    height: 70vh;
+    margin: 0;
+    background: linear-gradient(to top, #0f4c81 90%, #fff 10%);    
+    background-repeat: no-repeat;
+} */
+
+
+#about_wrapper {
+    margin: 0;
+    height: 85%;
+    background-color: #0f4c81;
+    overflow: hidden;
+}
+
+canvas {
+    display:block;
+    top: 10%;
+    /* bottom: 5%;
+    right: 0;
+    left: 0; */
+    margin:0 auto;
+  }
+  
+  #canvastext{
+      position: absolute;  
+      top: 10%;
+      left: 10%;    
+      margin: 20px;
+      padding: 5px;
+      padding-right: 15%;
+      color: #0abab5;
+  }
+
+  #resumetext {
+      /* display: block; */
+      margin-top: 15px;
+      margin-left: 80%;
+      color: #0f4c81;
+      /* font-size: 16px; */
+  }
+
+
+#tcolor {
+    background-color: #0f4c81;
+    color: white;
+  }
+
+#navfontcolor {
+    color: #0f4c81;
+}

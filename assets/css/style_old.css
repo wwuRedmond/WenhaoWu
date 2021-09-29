@@ -1,0 +1,191 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    /* background: #45B8AC; */
+    background-image: url("../images/engineering_background.jpg");
+    /* opacity:0.5; */
+    /* background-image: url("PPI01.jpg"); */
+    background-attachment: fixed;
+    background-position: bottom;
+    filter: opacity .5;
+    z-index: -1;
+    background-repeat: no-repeat;
+    
+}
+
+
+.header{
+  position: fixed;
+  height: 80px;
+  left: 0;
+  top:0;
+  width: 100%;
+  font-weight: strong;
+  /* background: #FFCA7C;
+  opacity: .7; */
+  /* background:#D2C29D; */
+}
+
+/* #masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+} */
+
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color:#034F84;
+  font-size: 18px;
+  text-decoration: none;
+  border-left: 2px solid #efefef;
+}
+
+/* .circle {
+  display: inline-block;
+  position: relative;
+  padding: 50% 0;
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  background: #FF6F61;
+  } */
+
+  .itemContainer{
+    display:inline-block;
+    justify-content: space-evenly;
+  }
+
+  .imgMe {
+    width:40%;
+    height:40%;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left:225px;
+  }
+  /* .circleImg {
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+    margin-left:300px;
+    background: #8D9440;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  } */
+
+  .circleResume {
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+    margin-left:300px;
+    background: #8D9440;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+  }
+
+  .circleProject {
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+    margin-left:30px;
+    background:  #FFD662;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+  }
+  
+  .circleSkill {
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+    margin-left:30px;
+    background: #00539C;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+  }
+
+
+ #name {
+  padding: 25px 0;
+  }
+
+  .footer {
+    position: fixed;
+    height: 80px;
+    padding: 25px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #FFCA7C;
+    opacity: .7;
+    /* background: #D2C29D; */
+    color: #088da5;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  .imgPhone {
+    display: flexbox;
+    float: left;
+    width: 40px;
+    height:40px;
+  }
+
+  .imgMail {  
+    display: flexbox;
+    margin:0 5px;
+    float: left;  
+    width:40px;
+    height:40px;
+  }
+
+  .imgLinkedin {  
+    display: flexbox;
+    margin:0 5px;
+    float: left;  
+    width:40px;
+    height:40px;
+  }
+
+  div.container4 {
+    height: 125px;
+    position: relative }
+  div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    .projectContainer {
+      display: block;
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+
+    @media only screen and (max-width: 780px) {
+      body {
+        background-color: none;
+      }
+    }
